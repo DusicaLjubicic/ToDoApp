@@ -51,7 +51,7 @@ footer {
     height: 0rem;
 }
 
-/* To ensure content doesn't get hidden behind the footer */
+/*zbog footer-a*/
 main {
   margin-bottom: 2rem;
 }
@@ -59,7 +59,34 @@ main {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: #fff;
 }
+
+p{
+  color: #5c535b;
+}
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 280px;
+  margin: 16px;
+  float: left;
+}
+.note h2 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #5c535b;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
 
 button {
   border-radius: 8px;
